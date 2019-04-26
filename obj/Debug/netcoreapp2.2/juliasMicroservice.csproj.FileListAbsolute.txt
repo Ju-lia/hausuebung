@@ -1,0 +1,14 @@
+C:\repositories\neo\juliasMicroservice\obj\Debug\netcoreapp2.2\juliasMicroservice.csprojAssemblyReference.cache
+C:\repositories\neo\juliasMicroservice\obj\Debug\netcoreapp2.2\juliasMicroservice.csproj.CoreCompileInputs.cache
+C:\repositories\neo\juliasMicroservice\obj\Debug\netcoreapp2.2\juliasMicroservice.RazorAssemblyInfo.cache
+C:\repositories\neo\juliasMicroservice\obj\Debug\netcoreapp2.2\juliasMicroservice.RazorAssemblyInfo.cs
+C:\repositories\neo\juliasMicroservice\obj\Debug\netcoreapp2.2\juliasMicroservice.AssemblyInfoInputs.cache
+C:\repositories\neo\juliasMicroservice\obj\Debug\netcoreapp2.2\juliasMicroservice.AssemblyInfo.cs
+C:\repositories\neo\juliasMicroservice\obj\Debug\netcoreapp2.2\juliasMicroservice.RazorTargetAssemblyInfo.cache
+C:\repositories\neo\juliasMicroservice\bin\Debug\netcoreapp2.2\x.deps.json
+C:\repositories\neo\juliasMicroservice\bin\Debug\netcoreapp2.2\x.runtimeconfig.json
+C:\repositories\neo\juliasMicroservice\bin\Debug\netcoreapp2.2\x.runtimeconfig.dev.json
+C:\repositories\neo\juliasMicroservice\bin\Debug\netcoreapp2.2\x.dll
+C:\repositories\neo\juliasMicroservice\bin\Debug\netcoreapp2.2\x.pdb
+C:\repositories\neo\juliasMicroservice\obj\Debug\netcoreapp2.2\x.dll
+C:\repositories\neo\juliasMicroservice\obj\Debug\netcoreapp2.2\x.pdb
