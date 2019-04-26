@@ -25,24 +25,23 @@ namespace Eventim
 
         private static string ExtractDelimiter(ref string input)
         {
-            var delimiter = "";
+            var additionalDelimiter = "";
             if (input.StartsWith("//"))
             {
                 input = input.Replace("\n", "~");
-                int pFrom = input.IndexOf("//") + "//".Length;
-                int pTo = input.IndexOf("~;");
+                int startIndex = getIndexOfLastCharInSequence(input, "//");
+                int endIndex = input.IndexOf("~;");
 
-                string result = input.Substring(pFrom, pTo - pFrom);
-
-                delimiter = "|" + result;
-
-                input = input.Substring(input.IndexOf("~;") + "~;".Length);
-
+                additionalDelimiter = "|" + input.Substring(startIndex, endIndex - startIndex);
+                input = input.Substring(getIndexOfLastCharInSequence(input, "~;"));
             }
-            return ",|\n" + delimiter;
+            return ",|\n" + additionalDelimiter;
         }
 
-
+        private static int getIndexOfLastCharInSequence(string input, string sequence)
+        {
+            return input.IndexOf(sequence) + sequence.Length;
+        }
 
         private static int CalculateAddition(string[] arr)
         {
